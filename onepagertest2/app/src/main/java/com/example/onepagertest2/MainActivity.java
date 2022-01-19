@@ -18,9 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     // this goes to aboutmeScene
-    private Scene homeToAboutMe = null;
+    private Scene aboutMeScene = null;
     // this goes to Homescreen
-    private Scene aboutMeToHome = null;
+    private Scene homeScene = null;
+    // scene 3
+    private Scene mywork = null;
+    // scene 4
 
 
 
@@ -29,32 +32,33 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageButton aboutMeImage;
-        aboutMeImage = findViewById(R.id.aboutMe);
-
         Button button;
-        button = findViewById(R.id.aboutmeButton);
+        button = findViewById(R.id.myworkButton);
+
+        // scene 1
+        homeScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.home_activity_scene, this);
+        // scene 2
+        aboutMeScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.overmij_scene, this);
+        // scene 3
+        mywork = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.mywork, this);
+        // scene 4
+
+        homeScene.enter();
+
+    }
+
+    public void skillsButton(View view) {
+        Transition explode = new Explode();
+        TransitionManager.go(mywork, explode);
+    }
 
 
+    public void HomefromWork(View view) {
+        Transition explode = new Explode();
+        TransitionManager.go(homeScene, explode);
+    }
 
+    public void aboutmeClick(View view) {
 
-        // vg = ViewGroup,
-        ViewGroup root = findViewById(R.id.rootContainer);
-        ViewGroup aboutMeVg = findViewById(R.id.aboutMeContainer);
-
-
-        homeToAboutMe = Scene.getSceneForLayout(root, R.layout.overmij_scene, this);
-
-
-        aboutMeImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Transition explode = new Explode();
-                TransitionManager.go(homeToAboutMe, explode);
-
-
-            }
-        });
     }
 }
