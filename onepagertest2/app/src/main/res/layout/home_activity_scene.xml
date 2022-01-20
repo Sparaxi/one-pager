@@ -26,9 +26,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/bottom_right"
-        android:onClick="myWorkButton"
-         />
+        android:background="@drawable/custom_button"
+        android:src="@drawable/mywork"
+        android:scaleType="fitCenter"
+        android:onClick="skillsButton"/>
 
     <ImageButton
         android:id="@+id/ervaringen"

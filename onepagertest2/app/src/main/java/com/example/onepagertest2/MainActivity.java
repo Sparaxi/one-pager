@@ -16,6 +16,7 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
+
     // this goes to aboutmeScene
     private Scene aboutMeScene = null;
     // this goes to Homescreen
@@ -25,10 +26,14 @@ public class MainActivity extends AppCompatActivity {
     // scene 4
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button button;
+        button = findViewById(R.id.myworkButton);
 
         // scene 1
         homeScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.home_activity_scene, this);
