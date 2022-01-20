@@ -3,4 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/black"
+        android:onClick="home_From_Skills"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

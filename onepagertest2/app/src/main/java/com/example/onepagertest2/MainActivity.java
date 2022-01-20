@@ -17,13 +17,16 @@ import android.widget.ImageButton;
 public class MainActivity extends AppCompatActivity {
 
 
-    // this goes to aboutmeScene
+    // scene 1
     private Scene aboutMeScene = null;
-    // this goes to Homescreen
+    // scene 2
     private Scene homeScene = null;
     // scene 3
-    private Scene mywork = null;
+    private Scene myWorkScene = null;
     // scene 4
+    private Scene skillsScene = null;
+    // scene 5
+    private Scene contactScene = null;
 
 
 
@@ -32,33 +35,45 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button;
-        button = findViewById(R.id.myworkButton);
 
         // scene 1
         homeScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.home_activity_scene, this);
         // scene 2
         aboutMeScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.overmij_scene, this);
         // scene 3
-        mywork = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.mywork, this);
+        myWorkScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.mywork, this);
         // scene 4
+        skillsScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.skills_scene, this);
+        // scene 5
+        contactScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.gegevens_scene, this);
 
         homeScene.enter();
 
     }
 
-    public void skillsButton(View view) {
+
+    public void myWorkButton(View view) {
         Transition explode = new Explode();
-        TransitionManager.go(mywork, explode);
+        TransitionManager.go(myWorkScene, explode);
+    }
+    public void contactButton(View view) {
+        Transition explode = new Explode();
+        TransitionManager.go(contactScene, explode);
     }
 
 
-    public void HomefromWork(View view) {
+    public void aboutMeButton(View view) {
+        Transition explode = new Explode();
+        TransitionManager.go(aboutMeScene, explode);
+    }
+
+    public void skillsbutton(View view) {
+        Transition explode = new Explode();
+        TransitionManager.go(skillsScene, explode);
+    }
+
+    public void home_From_Skills(View view) {
         Transition explode = new Explode();
         TransitionManager.go(homeScene, explode);
-    }
-
-    public void aboutmeClick(View view) {
-
     }
 }
