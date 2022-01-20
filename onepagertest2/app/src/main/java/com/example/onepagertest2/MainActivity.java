@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     public void myWorkButton(View view) {
         Transition explode = new Explode();
         TransitionManager.go(myWorkScene, explode);
@@ -61,18 +60,32 @@ public class MainActivity extends AppCompatActivity {
         TransitionManager.go(contactScene, explode);
     }
 
-
     public void aboutMeButton(View view) {
         Transition explode = new Explode();
         TransitionManager.go(aboutMeScene, explode);
     }
 
-    public void skillsbutton(View view) {
+    public void skillsButton(View view) {
         Transition explode = new Explode();
         TransitionManager.go(skillsScene, explode);
     }
 
     public void home_From_Skills(View view) {
+        Transition explode = new Explode();
+        TransitionManager.go(homeScene, explode);
+    }
+
+    public void home_from_myWork(View view) {
+        Transition explode = new Explode();
+        TransitionManager.go(homeScene, explode);
+    }
+
+    public void home_from_contact(View view) {
+        Transition explode = new Explode();
+        TransitionManager.go(homeScene, explode);
+    }
+
+    public void home_from_aboutMe(View view) {
         Transition explode = new Explode();
         TransitionManager.go(homeScene, explode);
     }
