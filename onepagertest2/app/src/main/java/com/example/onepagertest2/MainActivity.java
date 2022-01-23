@@ -2,6 +2,7 @@ package com.example.onepagertest2;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.transition.Explode;
+import androidx.transition.Fade;
 import androidx.transition.Scene;
 import androidx.transition.Slide;
 import androidx.transition.Transition;
@@ -16,7 +17,6 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-
     // scene 1
     private Scene aboutMeScene = null;
     // scene 2
@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private Scene skillsScene = null;
     // scene 5
     private Scene contactScene = null;
-
-
+    //scene  6
+    private Scene example = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
         skillsScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.skills_scene, this);
         // scene 5
         contactScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.gegevens_scene, this);
+        // scene6
+        example = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.myworkexample, this);
 
         homeScene.enter();
 
@@ -59,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         Transition explode = new Explode();
         TransitionManager.go(contactScene, explode);
     }
-
     public void aboutMeButton(View view) {
         Transition explode = new Explode();
         TransitionManager.go(aboutMeScene, explode);
@@ -88,5 +89,15 @@ public class MainActivity extends AppCompatActivity {
     public void home_from_aboutMe(View view) {
         Transition explode = new Explode();
         TransitionManager.go(homeScene, explode);
+    }
+
+    public void goExample(View view) {
+        Transition fade = new Fade();
+        TransitionManager.go(example, fade);
+    }
+
+    public void backToWork(View view) {
+        Transition fade = new Fade();
+        TransitionManager.go(myWorkScene, fade);
     }
 }

@@ -8,4 +8,8 @@
     <style name="RoundedSquareText">
         <item name="cornerSize">2%</item>
     </style>
+
+    <style name="circle">
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>

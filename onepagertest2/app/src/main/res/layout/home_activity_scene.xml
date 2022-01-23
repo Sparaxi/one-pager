@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C4EBEEF1"
->
+    >
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView2"
@@ -15,9 +15,9 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:srcCompat="@drawable/overmij_image"
         app:shapeAppearanceOverlay="@style/RoundedSquare"
-        tools:ignore="MissingConstraints" />
+        app:srcCompat="@drawable/overmij_image"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView4"
@@ -28,7 +28,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guideline2"
         app:shapeAppearanceOverlay="@style/RoundedSquare"
-        app:srcCompat="@drawable/skills_image" />
+        app:srcCompat="@drawable/skills_image"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView3"
@@ -39,7 +40,8 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/guideline3"
         app:shapeAppearanceOverlay="@style/RoundedSquare"
-        app:srcCompat="@drawable/mijnwerk_image" />
+        app:srcCompat="@drawable/mijnwerk_image"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:layout_width="wrap_content"
