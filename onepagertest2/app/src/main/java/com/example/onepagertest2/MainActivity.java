@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.view.ViewCompat;
 import androidx.transition.Explode;
-import androidx.transition.Fade;
 import androidx.transition.Scene;
 import androidx.transition.Slide;
 import androidx.transition.Transition;
@@ -14,6 +13,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.transition.Fade;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,22 +31,22 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView aboutMeText;
-        TextView skillsText;
-        TextView expText;
-        TextView ContactText;
 
-        aboutMeText = findViewById(R.id.aboutmeText);
-        skillsText = findViewById(R.id.skillsText);
-        expText = findViewById(R.id.expText);
-        ContactText = findViewById(R.id.ContactText);
+        TextView aboutMeText = findViewById(R.id.aboutmeText);
+        TextView skillsText = findViewById(R.id.skillsText);
+        TextView expText = findViewById(R.id.expText);
+        TextView ContactText = findViewById(R.id.ContactText);
 
-        final ImageView imageView = findViewById(R.id.aboutMeIcon);
+        ImageView aboutMeIV = findViewById(R.id.aboutMeIcon);
+        ImageView SkillsIV = findViewById(R.id.skillsIcon);
+        ImageView expIV = findViewById(R.id.experienceIcon);
+        ImageView contactIV = findViewById(R.id.contactIcon);
 
         Button aboutMeButtonButton;
         aboutMeButtonButton = findViewById(R.id.aboutMeButtonButton);
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "About me", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, AboutMeActivity.class);
-                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, imageView, ViewCompat.getTransitionName(imageView));
+                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, aboutMeIV, ViewCompat.getTransitionName(aboutMeIV));
                 startActivity(intent, options.toBundle());
             }
         });
