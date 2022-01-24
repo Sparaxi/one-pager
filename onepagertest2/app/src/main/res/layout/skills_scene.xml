@@ -6,12 +6,12 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <ImageView
-        android:layout_width="426dp"
-        android:layout_height="872dp"
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
         android:src="@drawable/background_scenes"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="-2dp"
-        android:scaleType="centerCrop"
         />
 
     <ImageView
@@ -22,5 +22,53 @@
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
         />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="411dp"
+        android:layout_height="540dp"
+        app:cardCornerRadius="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/cardviewIV"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/cardviewTvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text goes here"
+                android:textSize="20sp"
+                android:paddingBottom="10sp"
+                android:paddingTop="10sp"
+                />
+
+            <TextView
+                android:id="@+id/cardviewDsc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="description goes here"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
