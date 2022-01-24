@@ -18,6 +18,16 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="0dp" />
 
+    <Button
+        android:id="@+id/aboutMeButtonButton"
+        android:layout_width="187dp"
+        android:layout_height="259dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/aboutMeButton"
+        app:layout_constraintStart_toStartOf="@+id/aboutMeButton"
+        app:layout_constraintTop_toTopOf="@+id/aboutMeButton"
+        app:layout_constraintEnd_toEndOf="@id/aboutMeButton"/>
+
     <TextView
         android:id="@+id/homeHeaderText"
         android:layout_width="wrap_content"
@@ -81,6 +91,16 @@
         app:layout_constraintVertical_bias="0.7"
         app:shapeAppearanceOverlay="@style/RoundedSquare" />
 
+    <Button
+        android:id="@+id/skillsButtonButton"
+        android:layout_width="187dp"
+        android:layout_height="259dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/skillsButton"
+        app:layout_constraintStart_toStartOf="@+id/skillsButton"
+        app:layout_constraintTop_toTopOf="@+id/skillsButton"
+        app:layout_constraintEnd_toEndOf="@id/skillsButton"/>
+
     <ImageView
         android:id="@+id/skillsIcon"
         android:layout_width="100dp"
@@ -118,6 +138,15 @@
         app:layout_constraintVertical_bias="0.3"
         app:shapeAppearanceOverlay="@style/RoundedSquare" />
 
+    <Button
+        android:id="@+id/experienceButtonButton"
+        android:layout_width="187dp"
+        android:layout_height="259dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/experienceButton"
+        app:layout_constraintStart_toStartOf="@+id/experienceButton"
+        app:layout_constraintTop_toTopOf="@+id/experienceButton"
+        app:layout_constraintEnd_toEndOf="@id/experienceButton"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -154,6 +183,16 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3"
         app:layout_constraintVertical_bias="0.301"
         app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+    <Button
+        android:id="@+id/contactButtonButton"
+        android:layout_width="187dp"
+        android:layout_height="259dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/contactButton"
+        app:layout_constraintStart_toStartOf="@+id/contactButton"
+        app:layout_constraintTop_toTopOf="@+id/contactButton"
+        app:layout_constraintEnd_toEndOf="@id/contactButton"/>
 
     <ImageView
         android:id="@+id/imageView3"
