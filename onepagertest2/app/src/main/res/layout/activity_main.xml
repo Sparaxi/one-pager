@@ -58,7 +58,7 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/aboutmeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="About me"
@@ -94,7 +94,7 @@
         android:src="@drawable/skills"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/skillsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Skills"
@@ -132,7 +132,7 @@
         app:layout_constraintVertical_bias="0.3" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/expText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Experience"
@@ -168,6 +168,7 @@
         app:layout_constraintVertical_bias="0.3" />
 
     <TextView
+        android:id="@+id/ContactText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contact"
