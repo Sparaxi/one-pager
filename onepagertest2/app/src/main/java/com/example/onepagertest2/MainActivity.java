@@ -34,16 +34,15 @@ public class MainActivity extends AppCompatActivity {
     //scene  6
     private Scene example = null;
 
-    private ActionBar actionBar;
-    private ViewPager viewPager;
-    private ArrayList<SkillsCardViewStringStorage> skillsArrayList;
-    private SkillsCardViewAdapter skillsCardViewAdapter;
+//    private ActionBar actionBar;
+//    private ViewPager viewPager;
+//    private ArrayList<SkillsCardViewStringStorage> skillsArrayList;
+//    private SkillsCardViewAdapter skillsCardViewAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         // scene 1
         homeScene = Scene.getSceneForLayout((ViewGroup) findViewById(R.id.rootContainer), R.layout.home_activity_scene, this);
@@ -60,43 +59,40 @@ public class MainActivity extends AppCompatActivity {
 
         homeScene.enter();
 
-        actionBar = getSupportActionBar();
-
-        viewPager = findViewById(R.id.viewPager);
-        loadCards();
-
-        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-            @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                
-            }
-
-            @Override
-            public void onPageSelected(int position) {
-
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int state) {
-
-            }
-        });
-
-
-
+//        actionBar = getSupportActionBar();
+//
+//        viewPager = findViewById(R.id.viewPager);
+//        loadCards();
+//
+//        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+//            @Override
+//            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+//
+//            }
+//
+//            @Override
+//            public void onPageSelected(int position) {
+//
+//            }
+//
+//            @Override
+//            public void onPageScrollStateChanged(int state) {
+//
+//            }
+//        });
 
     }
 
-    private void loadCards(){
-        skillsArrayList = new ArrayList<>();
-
-        skillsArrayList.add(new SkillsCardViewStringStorage("test","test",R.drawable.custom_button));
-
-        skillsCardViewAdapter = new SkillsCardViewAdapter(this, skillsArrayList);
-
-        viewPager.setAdapter(skillsCardViewAdapter);
-        viewPager.setPadding(100, 0, 100, 0);
-    }
+//    private void loadCards(){
+//        skillsArrayList = new ArrayList<>();
+//
+//        skillsArrayList.add(new SkillsCardViewStringStorage("test","test",R.drawable.custom_button));
+//
+//        skillsCardViewAdapter = new SkillsCardViewAdapter(this, skillsArrayList);
+//
+//        viewPager.setAdapter(skillsCardViewAdapter);
+//        viewPager.setPadding(100, 0, 100, 0);
+//    }
 
     public void myWorkButton(View view) {
         Transition explode = new Explode();
@@ -145,4 +141,5 @@ public class MainActivity extends AppCompatActivity {
         Transition fade = new Fade();
         TransitionManager.go(myWorkScene, fade);
     }
+
 }

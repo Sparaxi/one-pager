@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
 
-    <androidx.viewpager.widget.ViewPager
+    <ImageView
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,52 +22,26 @@
         android:paddingTop="10dp"
         />
 
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="411dp"
-        android:layout_height="540dp"
-        app:cardCornerRadius="22dp"
+    <ScrollView
+        android:id="@+id/skillsScrollView"
+        android:layout_width="339dp"
+        android:layout_height="399dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title goes here"
+            android:textColor="@color/white" />
 
-            <ImageView
-                android:id="@+id/cardviewIV"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_launcher_background"/>
-
-            <TextView
-                android:id="@+id/cardviewTvTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text goes here"
-                android:textSize="20sp"
-                android:paddingBottom="10sp"
-                android:paddingTop="10sp"
-                />
-
-            <TextView
-                android:id="@+id/cardviewDsc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="description goes here"
-                android:textSize="15sp"
-                />
+        
 
 
-        </LinearLayout>
-
-
-    </androidx.cardview.widget.CardView>
-
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
