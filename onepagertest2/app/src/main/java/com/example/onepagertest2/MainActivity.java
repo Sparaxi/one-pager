@@ -1,5 +1,6 @@
 package com.example.onepagertest2;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.transition.Explode;
 import androidx.transition.Fade;
@@ -7,6 +8,7 @@ import androidx.transition.Scene;
 import androidx.transition.Slide;
 import androidx.transition.Transition;
 import androidx.transition.TransitionManager;
+import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.view.Gravity;
@@ -14,6 +16,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
     private Scene contactScene = null;
     //scene  6
     private Scene example = null;
+
+    private ActionBar actionBar;
+    private ViewPager viewPager;
+    private ArrayList<SkillsCardViewStringStorage> skillsArrayList;
+    private SkillsCardViewAdapter skillsCardViewAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +60,42 @@ public class MainActivity extends AppCompatActivity {
 
         homeScene.enter();
 
+        actionBar = getSupportActionBar();
+
+        viewPager = findViewById(R.id.viewPager);
+        loadCards();
+
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
+
+
+
+
+    }
+
+    private void loadCards(){
+        skillsArrayList = new ArrayList<>();
+
+        skillsArrayList.add(new SkillsCardViewStringStorage("test","test",R.drawable.custom_button));
+
+        skillsCardViewAdapter = new SkillsCardViewAdapter(this, skillsArrayList);
+
+        viewPager.setAdapter(skillsCardViewAdapter);
+        viewPager.setPadding(100, 0, 100, 0);
     }
 
     public void myWorkButton(View view) {

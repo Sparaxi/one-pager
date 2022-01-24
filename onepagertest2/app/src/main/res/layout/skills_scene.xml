@@ -5,14 +5,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <ImageView
-        android:id="@+id/background"
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/background_scenes"
-        app:layout_constraintEnd_toEndOf="parent"
-        />
+        android:background="@drawable/background_scenes"/>
+
 
     <ImageView
         android:layout_width="wrap_content"
