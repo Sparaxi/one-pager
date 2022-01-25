@@ -2,9 +2,12 @@ package com.example.onepagertest2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.transition.Fade;
 import android.view.View;
+
+import java.util.ArrayList;
 
 public class SkillsActivity extends AppCompatActivity {
 
@@ -22,5 +25,7 @@ public class SkillsActivity extends AppCompatActivity {
 
         getWindow().setEnterTransition(fade);
         getWindow().setExitTransition(fade);
+
+
     }
 }

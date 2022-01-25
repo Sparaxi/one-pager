@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
 
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
@@ -17,6 +18,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#37FFFFFF"
+        />
 
     <Button
         android:id="@+id/aboutMeButtonButton"
@@ -45,7 +52,7 @@
         android:id="@+id/aboutMeButton"
         android:layout_width="187dp"
         android:layout_height="259dp"
-        android:background="#11FFFFFF"
+        android:background="#32000000"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -77,6 +84,7 @@
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/aboutMeButton"
         app:layout_constraintEnd_toEndOf="@+id/aboutMeButton"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/aboutMeButton"
         app:layout_constraintTop_toBottomOf="@+id/aboutMeIcon" />
 
@@ -84,7 +92,7 @@
         android:id="@+id/skillsButton"
         android:layout_width="187dp"
         android:layout_height="259dp"
-        android:background="#11FFFFFF"
+        android:background="#32000000"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -123,6 +131,7 @@
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/skillsButton"
         app:layout_constraintEnd_toEndOf="@+id/skillsButton"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/skillsButton"
         app:layout_constraintTop_toBottomOf="@+id/skillsIcon" />
 
@@ -130,7 +139,7 @@
         android:id="@+id/experienceButton"
         android:layout_width="187dp"
         android:layout_height="259dp"
-        android:background="#11FFFFFF"
+        android:background="#32000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.473"
@@ -170,14 +179,16 @@
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/experienceButton"
         app:layout_constraintEnd_toEndOf="@+id/experienceButton"
+        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="@+id/experienceButton"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/experienceIcon"
+        app:layout_constraintVertical_bias="0.494" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/contactButton"
         android:layout_width="187dp"
         android:layout_height="259dp"
-        android:background="#11FFFFFF"
+        android:background="#32000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -218,7 +229,7 @@
         app:layout_constraintEnd_toEndOf="@+id/contactButton"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="@+id/contactButton"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/contactIcon"
         app:layout_constraintVertical_bias="0.494" />
 
     <androidx.constraintlayout.widget.Guideline

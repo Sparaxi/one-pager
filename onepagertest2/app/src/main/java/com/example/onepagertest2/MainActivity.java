@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "About me", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, AboutMeActivity.class);
-                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, aboutMeIV, ViewCompat.getTransitionName(aboutMeIV));
-                startActivity(intent, options.toBundle());
+//                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, aboutMeIV, ViewCompat.getTransitionName(aboutMeIV));
+                startActivity(intent);
             }
         });
 
@@ -72,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Skills", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, SkillsActivity.class);
+//                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, SkillsIV, ViewCompat.getTransitionName(SkillsIV));
+                startActivity(intent);
             }
         });
 
@@ -79,6 +82,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Experience", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, ExperienceActivity.class);
+//                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, expIV, ViewCompat.getTransitionName(expIV));
+                startActivity(intent);
             }
         });
 
@@ -86,6 +92,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "CONTACT", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, ContactActivity.class);
+//                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, contactIV, ViewCompat.getTransitionName(contactIV));
+                startActivity(intent);
             }
         });
 

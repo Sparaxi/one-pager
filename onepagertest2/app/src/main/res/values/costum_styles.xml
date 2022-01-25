@@ -6,7 +6,7 @@
     </style>
 
     <style name="RoundedSquareText">
-        <item name="cornerSize">2%</item>
+        <item name="cornerSize">50%</item>
     </style>
 
     <style name="circle">
@@ -14,7 +14,7 @@
     </style>
 
     <style name="transition">
-        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
 
     </style>
 </resources>
