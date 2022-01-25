@@ -13,14 +13,12 @@ import java.util.ArrayList;
 public class SkillsActivity extends AppCompatActivity {
 
     public Context context;
+    ListView skillsList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_skills);
-
-        ListView skillsL;
-        skillsL = findViewById(R.id.skillsList);
 
         Fade fade = new Fade();
         View decor = getWindow().getDecorView();
@@ -32,11 +30,16 @@ public class SkillsActivity extends AppCompatActivity {
         getWindow().setEnterTransition(fade);
         getWindow().setExitTransition(fade);
 
-        ArrayList<skills> arrayList = new ArrayList<>();
-        arrayList.add(new skills(R.layout.list_item_skills, "nice"));
+        skillsList = findViewById(R.id.skillsList);
 
-        skillsAdapter skillsAdapter = new skillsAdapter(context, R.layout.list_item_skills,arrayList);
-        skillsL.setAdapter(skillsAdapter);
+        ArrayList<SkillsStringStorage> arrayList = new ArrayList<>();
+
+        arrayList.add(new SkillsStringStorage(R.layout.list_item_skills, "skills"));
+
+        SkillsAdapter skillsAdapter = new SkillsAdapter(this, R.layout.list_item_skills, arrayList);
+
+        skillsList.setAdapter(skillsAdapter);
+
 
     }
 }

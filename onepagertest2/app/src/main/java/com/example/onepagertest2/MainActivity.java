@@ -48,15 +48,11 @@ public class MainActivity extends AppCompatActivity {
         ImageView expIV = findViewById(R.id.experienceIcon);
         ImageView contactIV = findViewById(R.id.contactIcon);
 
-        Button aboutMeButtonButton;
-        aboutMeButtonButton = findViewById(R.id.aboutMeButtonButton);
-        Button skillsButtonButton;
-        Button experienceButtonButton;
-        Button contactButtonButton;
 
-        skillsButtonButton = findViewById(R.id.skillsButtonButton);
-        experienceButtonButton = findViewById(R.id.experienceButtonButton);
-        contactButtonButton = findViewById(R.id.contactButtonButton);
+        Button aboutMeButtonButton = findViewById(R.id.aboutMeButtonButton);
+        Button skillsButtonButton = findViewById(R.id.skillsButtonButton);
+        Button experienceButtonButton = findViewById(R.id.experienceButtonButton);
+        Button contactButtonButton = findViewById(R.id.contactButtonButton);
 
         aboutMeButtonButton.setOnClickListener(new View.OnClickListener() {
             @Override

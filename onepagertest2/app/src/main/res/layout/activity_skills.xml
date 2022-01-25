@@ -6,11 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SkillsActivity">
 
-    <ListView
-        android:id="@+id/skillsList"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
+
 
 
     <ImageView
@@ -22,10 +18,21 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp"
         />
-    <ImageView
+
+
+    <ListView
+        android:id="@+id/skillsList"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#37FFFFFF"/>
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        android:listSelector="#00FFFFFF"
+        />
+
     <TextView
         android:id="@+id/homeHeaderText"
         android:layout_width="wrap_content"

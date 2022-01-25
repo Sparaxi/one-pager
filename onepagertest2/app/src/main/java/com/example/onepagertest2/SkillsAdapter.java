@@ -13,30 +13,30 @@ import androidx.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class skillsAdapter extends ArrayAdapter<skills> {
-
-    private int mResource;
+public class SkillsAdapter extends ArrayAdapter<SkillsStringStorage> {
     private Context mContext;
+    private int mResource;
 
-    public skillsAdapter(@NonNull Context context, int resource, @NonNull ArrayList<skills> objects) {
+
+    public SkillsAdapter(@NonNull Context context, int resource, @NonNull ArrayList<SkillsStringStorage> objects) {
+
         super(context, resource, objects);
-        this.mResource = mResource;
-        this.mContext = mContext;
+        this.mContext = context;
+        this.mResource = resource;
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+
         LayoutInflater layoutInflater = LayoutInflater.from(mContext);
 
         convertView = layoutInflater.inflate(mResource, parent, false);
 
-        TextView skillsL = convertView.findViewById(R.id.skillsItemList);
+        TextView textView = convertView.findViewById(R.id.skillsItemText);
 
-        skillsL.setText(getItem(position).getSkills());
+        textView.setText(getItem(position).getSkills());
 
         return convertView;
     }
-
-
 }
