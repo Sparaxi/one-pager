@@ -6,15 +6,21 @@ import android.content.Context;
 import android.os.Bundle;
 import android.transition.Fade;
 import android.view.View;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
 public class SkillsActivity extends AppCompatActivity {
 
+    public Context context;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_skills);
+
+        ListView skillsL;
+        skillsL = findViewById(R.id.skillsList);
 
         Fade fade = new Fade();
         View decor = getWindow().getDecorView();
@@ -26,6 +32,11 @@ public class SkillsActivity extends AppCompatActivity {
         getWindow().setEnterTransition(fade);
         getWindow().setExitTransition(fade);
 
+        ArrayList<skills> arrayList = new ArrayList<>();
+        arrayList.add(new skills(R.layout.list_item_skills, "nice"));
+
+        skillsAdapter skillsAdapter = new skillsAdapter(context, R.layout.list_item_skills,arrayList);
+        skillsL.setAdapter(skillsAdapter);
 
     }
 }
