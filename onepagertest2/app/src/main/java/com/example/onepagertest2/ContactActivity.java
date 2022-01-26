@@ -2,9 +2,11 @@ package com.example.onepagertest2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.transition.Fade;
 import android.view.View;
+import android.widget.Button;
 
 public class ContactActivity extends AppCompatActivity {
 
@@ -21,5 +23,16 @@ public class ContactActivity extends AppCompatActivity {
 
         getWindow().setEnterTransition(fade);
         getWindow().setExitTransition(fade);
+
+        Button backButton = findViewById(R.id.contactBackButton);
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ContactActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

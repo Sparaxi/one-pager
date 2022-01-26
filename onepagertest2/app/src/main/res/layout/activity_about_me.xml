@@ -22,8 +22,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#37FFFFFF"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteX="-140dp"
+        tools:layout_editor_absoluteY="277dp" />
 
     <TextView
         android:id="@+id/homeHeaderText"
@@ -39,6 +39,21 @@
         app:layout_constraintVertical_bias="0.020" />
 
 
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView2"
+        android:layout_width="376dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="4dp"
+        android:background="#32000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="0.5"
+        app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+
     <ImageView
         android:id="@+id/aboutMePhoto"
         android:layout_width="130dp"
@@ -48,26 +63,9 @@
         android:transitionName="aboutme_transition"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
-
-
-    <TextView
-        android:id="@+id/studiesTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Current Study:"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3"
-        android:textStyle="bold"/>
+        app:layout_constraintVertical_bias="0.396" />
 
 
     <!--    <Button-->
@@ -76,6 +74,21 @@
 <!--        tools:layout_editor_absoluteX="220dp"-->
 <!--        tools:layout_editor_absoluteY="130dp"-->
 <!--        android:background="#00FFFFFF"/>-->
+
+    <TextView
+        android:id="@+id/studiesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Study:"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
 
     <TextView
         android:id="@+id/studyInfo"
@@ -120,8 +133,7 @@
         app:layout_constraintHorizontal_bias="0.193"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/jobInfo"
-        app:layout_constraintVertical_bias="0.192" />
-
+        app:layout_constraintVertical_bias="0.117" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/intrestsBackground"
@@ -133,7 +145,7 @@
         app:layout_constraintHorizontal_bias="0.383"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/intrests"
-        app:layout_constraintVertical_bias="0.093"
+        app:layout_constraintVertical_bias="0.006"
         app:shapeAppearanceOverlay="@style/RoundedSquareText" />
 
     <com.google.android.material.imageview.ShapeableImageView
@@ -141,13 +153,24 @@
         android:layout_width="145dp"
         android:layout_height="23dp"
         android:background="#32000000"
-        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintBottom_toTopOf="@+id/shapeableImageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.383"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/intrestsBackground"
         app:layout_constraintVertical_bias="0.135"
         app:shapeAppearanceOverlay="@style/RoundedSquareText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/intrestsBackground"
+        app:layout_constraintEnd_toEndOf="@+id/intrestsBackground"
+        app:layout_constraintStart_toStartOf="@+id/intrestsBackground"
+        app:layout_constraintTop_toTopOf="@+id/intrestsBackground" />
 
     <Button
         android:id="@+id/clickbaitButtonSkills"
@@ -156,18 +179,20 @@
         app:layout_constraintBottom_toBottomOf="@+id/intrestsClickbait"
         app:layout_constraintEnd_toEndOf="@+id/intrestsClickbait"
         app:layout_constraintStart_toStartOf="@+id/intrestsClickbait"
-        app:layout_constraintTop_toTopOf="@+id/intrestsClickbait" />
+        app:layout_constraintTop_toTopOf="@+id/intrestsClickbait"
+        android:background="#00FFFFFF"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Games"
-        android:textSize="15sp"
+        android:text="More intrests"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/intrestsBackground"
-        app:layout_constraintEnd_toEndOf="@+id/intrestsBackground"
-        app:layout_constraintStart_toStartOf="@+id/intrestsBackground"
-        app:layout_constraintTop_toTopOf="@+id/intrestsBackground" />
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/intrestsClickbait"
+        app:layout_constraintEnd_toEndOf="@+id/intrestsClickbait"
+        app:layout_constraintStart_toStartOf="@+id/intrestsClickbait"
+        app:layout_constraintTop_toTopOf="@+id/intrestsClickbait"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/currentJob"
@@ -182,19 +207,48 @@
         app:layout_constraintHorizontal_bias="0.247"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/studyInfo"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintVertical_bias="0.062" />
 
     <TextView
         android:id="@+id/naamPersoon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aboutMePhoto"
-        android:text="Name"
-        android:textSize="20dp"
-        android:textColor="@color/white"/>
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About me:"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/shapeableImageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/shapeableImageView2"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About me text comes here:"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"

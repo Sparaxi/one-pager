@@ -2,9 +2,11 @@ package com.example.onepagertest2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.transition.Fade;
 import android.view.View;
+import android.widget.Button;
 
 public class AboutMeActivity extends AppCompatActivity {
 
@@ -22,5 +24,14 @@ public class AboutMeActivity extends AppCompatActivity {
         getWindow().setEnterTransition(fade);
         getWindow().setExitTransition(fade);
 
+        Button moreIntrestsButton = findViewById(R.id.clickbaitButtonSkills);
+
+        moreIntrestsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AboutMeActivity.this, SkillsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -210,7 +210,7 @@
         android:id="@+id/contactIcon"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/telephone"
+        android:src="@drawable/contacticon"
         app:layout_constraintBottom_toBottomOf="@+id/contactButton"
         app:layout_constraintEnd_toEndOf="@+id/contactButton"
         app:layout_constraintHorizontal_bias="0.5"
