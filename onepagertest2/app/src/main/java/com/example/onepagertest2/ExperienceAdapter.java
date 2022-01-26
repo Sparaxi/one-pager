@@ -17,10 +17,10 @@ public class ExperienceAdapter extends ArrayAdapter<ExperienceStringStorage> {
     private Context mContext;
     private int mResource;
 
-    public ExperienceAdapter(@NonNull Context context, int resource, @NonNull List<ExperienceStringStorage> objects, Context mContext, int mResource) {
+    public ExperienceAdapter(@NonNull Context context, int resource, @NonNull ArrayList<ExperienceStringStorage> objects) {
         super(context, resource, objects);
-        this.mContext = mContext;
-        this.mResource = mResource;
+        this.mContext = context;
+        this.mResource = resource;
     }
 
     @NonNull

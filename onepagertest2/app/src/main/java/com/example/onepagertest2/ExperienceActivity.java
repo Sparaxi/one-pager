@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class ExperienceActivity extends AppCompatActivity {
 
     ListView experienceLV;
-    public Context contextE;
+    public Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class ExperienceActivity extends AppCompatActivity {
         ArrayList<ExperienceStringStorage> arrayList = new ArrayList<>();
         arrayList.add(new ExperienceStringStorage(R.layout.list_item_experience,"yo"));
 
-        ExperienceAdapter experienceAdapter = new ExperienceAdapter(this, R.layout.list_item_experience);
+        ExperienceAdapter experienceAdapter = new ExperienceAdapter(this, R.layout.list_item_experience, arrayList);
         experienceLV.setAdapter(experienceAdapter);
 
     }

@@ -19,7 +19,6 @@ public class SkillsAdapter extends ArrayAdapter<SkillsStringStorage> {
 
 
     public SkillsAdapter(@NonNull Context context, int resource, @NonNull ArrayList<SkillsStringStorage> objects) {
-
         super(context, resource, objects);
         this.mContext = context;
         this.mResource = resource;
