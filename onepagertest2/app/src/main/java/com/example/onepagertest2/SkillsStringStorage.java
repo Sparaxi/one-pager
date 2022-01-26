@@ -2,17 +2,20 @@ package com.example.onepagertest2;
 
 public class SkillsStringStorage {
 
-    String skills;
+    String Title;
+    String Desc;
+    int Image;
 
-    public SkillsStringStorage(int list_item_skills, String skills) {
-        this.skills = skills;
+
+    public SkillsStringStorage(String skills) {
+        this.Title = skills;
     }
 
     public String getSkills() {
-        return skills;
+        return Title;
     }
 
     public void setSkills(String skills) {
-        this.skills = skills;
+        this.Title = skills;
     }
 }

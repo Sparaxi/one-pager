@@ -26,12 +26,9 @@ public class AboutMeActivity extends AppCompatActivity {
 
         Button moreIntrestsButton = findViewById(R.id.clickbaitButtonSkills);
 
-        moreIntrestsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(AboutMeActivity.this, SkillsActivity.class);
-                startActivity(intent);
-            }
+        moreIntrestsButton.setOnClickListener(v -> {
+            Intent intent = new Intent(AboutMeActivity.this, SkillsActivity.class);
+            startActivity(intent);
         });
     }
 }

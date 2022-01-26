@@ -3,10 +3,14 @@ package com.example.onepagertest2;
 public class ExperienceStringStorage {
 
     String workDone;
+    int imageview;
 
-    public ExperienceStringStorage(int list_item_experience, String workDone) {
+    public ExperienceStringStorage(String workDone, int imageview) {
         this.workDone = workDone;
+        this.imageview = imageview;
     }
+
+
 
     public String getWorkDone() {
         return workDone;
@@ -14,6 +18,14 @@ public class ExperienceStringStorage {
 
     public void setWorkDone(String workDone) {
         this.workDone = workDone;
+    }
+
+    public int getImageview() {
+        return imageview;
+    }
+
+    public void setImageview(int imageview) {
+        this.imageview = imageview;
     }
 }
 
