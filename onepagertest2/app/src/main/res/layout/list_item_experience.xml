@@ -7,54 +7,58 @@
 
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/shapeableI"
-        android:layout_width="414dp"
-        android:layout_height="256dp"
+        android:id="@+id/ExpItemBackground"
+        android:layout_width="412dp"
+        android:layout_height="167dp"
         android:layout_marginTop="1dp"
         android:background="#32000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/experienceItemImage"
+        app:layout_constraintVertical_bias="0.0"
         app:shapeAppearanceOverlay="@style/experienceStyle" />
-
 
     <TextView
         android:id="@+id/experienceItemText"
-        android:layout_width="match_parent"
-        android:layout_height="58dp"
-        android:layout_marginBottom="198dp"
-        android:text="@string/workdone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/shapeableI"
-        app:layout_constraintTop_toTopOf="@+id/shapeableI"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/ExpItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ExpItemBackground"
+        app:layout_constraintVertical_bias="0.168"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/experienceItemImage"
-        android:layout_width="411dp"
-        android:layout_height="186dp"
+        android:layout_width="410dp"
+        android:layout_height="239dp"
         android:background="#00FFFFFF"
-        android:scaleType="centerCrop"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.519"
+        app:layout_constraintVertical_bias="0.025"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/testText"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:layout_marginBottom="180dp"
-        android:text="@string/test2"
+        android:text="@string/Desc"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/shapeableI"
-        app:layout_constraintTop_toTopOf="@+id/shapeableI"
-        tools:layout_editor_absoluteX="142dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/ExpItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="@+id/ExpItemBackground"
+        app:layout_constraintTop_toTopOf="@+id/ExpItemBackground"
+        app:layout_constraintVertical_bias="0.248" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

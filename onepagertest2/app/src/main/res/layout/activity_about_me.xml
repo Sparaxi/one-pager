@@ -21,7 +21,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#37FFFFFF"
+        android:background="#39FFFFFF"
         tools:layout_editor_absoluteX="-140dp"
         tools:layout_editor_absoluteY="277dp" />
 

@@ -2,29 +2,29 @@ package com.example.onepagertest2;
 
 public class ExperienceStringStorage {
 
-    String workDone;
-    String test2;
+    String title;
+    String desc;
     int imageview;
 
     public ExperienceStringStorage(String workDone, String test2, int imageview) {
-        this.workDone = workDone;
+        this.title = workDone;
         this.imageview = imageview;
-        this.test2 = test2;
+        this.desc = test2;
     }
 
 
     public String getTest2() {
-        return test2;
+        return desc;
     }
 
     public String getWorkDone() {
-        return workDone;
+        return title;
     }
 
 
 
     public void setWorkDone(String workDone) {
-        this.workDone = workDone;
+        this.title = workDone;
     }
 
     public int getImageview() {
@@ -36,6 +36,6 @@ public class ExperienceStringStorage {
     }
 
     public void setTest2(String test2) {
-        this.test2 = test2;
+        this.desc = test2;
     }
 }
