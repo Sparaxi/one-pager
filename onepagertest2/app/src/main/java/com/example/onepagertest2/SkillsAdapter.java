@@ -40,7 +40,7 @@ public class SkillsAdapter extends ArrayAdapter<SkillsStringStorage> {
         ImageView imageView = convertView.findViewById(R.id.skillsItemImage);
 
         textView.setText(getItem(position).getSkills());
-        textView.setText(getItem(position).getDesc());
+        textView2.setText(getItem(position).getDesc());
         imageView.setImageResource(getItem(position).getImage());
 
         return convertView;

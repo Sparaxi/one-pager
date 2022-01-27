@@ -35,6 +35,7 @@ public class SkillsActivity extends AppCompatActivity {
         ArrayList<SkillsStringStorage> arrayList = new ArrayList<>();
 
         arrayList.add(new SkillsStringStorage("sheeesh","yes",R.drawable.skills));
+        arrayList.add(new SkillsStringStorage("good yes ","yes",R.drawable.mail));
 
         SkillsAdapter skillsAdapter = new SkillsAdapter(this,R.layout.list_item_skills,arrayList);
         skillsList.setAdapter(skillsAdapter);
