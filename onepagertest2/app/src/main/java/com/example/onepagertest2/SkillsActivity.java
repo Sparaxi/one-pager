@@ -38,8 +38,13 @@ public class SkillsActivity extends AppCompatActivity {
 
         ArrayList<SkillsStringStorage> arrayList = new ArrayList<>();
 
-        arrayList.add(new SkillsStringStorage("sheeesh","yes",R.drawable.skills));
-        arrayList.add(new SkillsStringStorage("good yes ","yes",R.drawable.mail));
+        arrayList.add(new SkillsStringStorage("Java"," Intermediate", R.drawable.suitcaseblauw));
+        arrayList.add(new SkillsStringStorage("Html/css","Beginner", R.drawable.suitcaseorange));
+        arrayList.add(new SkillsStringStorage("Python","  Beginner/Intermediate", R.drawable.suitcaseblauw));
+        arrayList.add(new SkillsStringStorage("SQL","Beginner", R.drawable.suitcaseorange));
+        arrayList.add(new SkillsStringStorage(" JavaScript","Beginner", R.drawable.suitcaseblauw));
+
+
 
         SkillsAdapter skillsAdapter = new SkillsAdapter(this,R.layout.list_item_skills,arrayList);
         skillsList.setAdapter(skillsAdapter);

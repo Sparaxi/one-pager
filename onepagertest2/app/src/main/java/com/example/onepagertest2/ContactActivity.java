@@ -33,7 +33,7 @@ public class ContactActivity extends AppCompatActivity {
         });
 
         emailButton.setOnClickListener(v -> {
-            startActivity(new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:abo@gmail.com")));
+            startActivity(new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:Wvdrp@hotmail.com")));
         });
 
     }

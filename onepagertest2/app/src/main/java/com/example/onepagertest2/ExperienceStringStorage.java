@@ -21,8 +21,6 @@ public class ExperienceStringStorage {
         return title;
     }
 
-
-
     public void setWorkDone(String workDone) {
         this.title = workDone;
     }

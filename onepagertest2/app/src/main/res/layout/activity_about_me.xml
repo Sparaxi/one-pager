@@ -39,25 +39,23 @@
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/shapeableImageView2"
-        android:layout_width="376dp"
-        android:layout_height="440dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="365dp"
+        android:layout_height="405dp"
         android:background="#32000000"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintTop_toBottomOf="@+id/homeHeaderText"
+        app:layout_constraintVertical_bias="1.0"
         app:shapeAppearanceOverlay="@style/RoundedSquare" />
-
 
     <ImageView
         android:id="@+id/aboutMePhoto"
         android:layout_width="130dp"
         android:layout_height="174dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/user"
+        android:scaleType="centerInside"
+        android:src="@drawable/photowesley"
         android:transitionName="aboutme_transition"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
@@ -69,7 +67,7 @@
         android:id="@+id/studiesTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Current Study:"
+        android:text="Huidige Studie:"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -84,7 +82,7 @@
         android:id="@+id/studyInfo"
         android:layout_width="137dp"
         android:layout_height="19dp"
-        android:text="Lorem ipsum dolor"
+        android:text="Software developer."
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
@@ -109,9 +107,9 @@
 
     <TextView
         android:id="@+id/jobInfo"
-        android:layout_width="137dp"
-        android:layout_height="21dp"
-        android:text="Lorem ipsum dolor"
+        android:layout_width="141dp"
+        android:layout_height="36dp"
+        android:text="verkoopmedewerker - Lidl"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
@@ -126,7 +124,7 @@
         android:id="@+id/intrests"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Interests:"
+        android:text="Interese:"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -166,7 +164,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lorem Ipsum"
+        android:text="Programmeren"
         android:textSize="15sp"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/intrestsBackground"
@@ -187,7 +185,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="More intrests"
+        android:text="Mijn skills"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/intrestsClickbait"
@@ -200,7 +198,7 @@
         android:id="@+id/currentJob"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Current Job:"
+        android:text="Huidige baan:"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -213,44 +211,45 @@
 
     <TextView
         android:id="@+id/naamPersoon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Name"
+        android:layout_width="169dp"
+        android:layout_height="28dp"
+        android:text="Wesley Van der Ploeg"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="17dp"
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintHorizontal_bias="0.675"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aboutMePhoto"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.17" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="About me:"
+        android:text="Over mij:"
         android:textColor="@color/white"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="@+id/shapeableImageView2"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/shapeableImageView2"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.061" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="321dp"
         android:layout_height="wrap_content"
-        android:text="About me text comes here:"
+        android:text="@string/overmijText"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.036" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"

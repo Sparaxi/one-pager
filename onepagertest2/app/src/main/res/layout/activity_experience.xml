@@ -35,6 +35,7 @@
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
         android:dividerHeight="20dp"
+        android:divider="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
