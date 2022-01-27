@@ -3,9 +3,11 @@ package com.example.onepagertest2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.transition.Fade;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -32,6 +34,8 @@ public class SkillsActivity extends AppCompatActivity {
 
         skillsList = findViewById(R.id.skillsList);
 
+        Button skillsBackButton = findViewById(R.id.skillsBackButton);
+
         ArrayList<SkillsStringStorage> arrayList = new ArrayList<>();
 
         arrayList.add(new SkillsStringStorage("sheeesh","yes",R.drawable.skills));
@@ -39,6 +43,10 @@ public class SkillsActivity extends AppCompatActivity {
 
         SkillsAdapter skillsAdapter = new SkillsAdapter(this,R.layout.list_item_skills,arrayList);
         skillsList.setAdapter(skillsAdapter);
+
+        skillsBackButton.setOnClickListener(v -> {
+            startActivity(new Intent(SkillsActivity.this, MainActivity.class));
+        });
 
 
     }

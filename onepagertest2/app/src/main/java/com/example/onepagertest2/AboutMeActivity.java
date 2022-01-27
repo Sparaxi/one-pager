@@ -16,11 +16,16 @@ public class AboutMeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about_me);
 
         Button moreInterestsButton = findViewById(R.id.clickbaitButtonSkills);
+        Button aboutMeBackButton = findViewById(R.id.aboutMeBackButton);
 
         moreInterestsButton.setOnClickListener(v -> {
-            Intent intent = new Intent(AboutMeActivity.this, SkillsActivity.class);
-            startActivity(intent);
+            startActivity(new Intent(AboutMeActivity.this, SkillsActivity.class));
         });
+
+        aboutMeBackButton.setOnClickListener(v -> {
+            startActivity(new Intent(AboutMeActivity.this, MainActivity.class));
+        });
+
 
     }
 }
