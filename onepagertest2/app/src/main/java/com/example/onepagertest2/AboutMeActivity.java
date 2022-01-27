@@ -15,20 +15,12 @@ public class AboutMeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_me);
 
-        Fade fade = new Fade();
-        View decor = getWindow().getDecorView();
-        fade.excludeTarget(decor.findViewById(R.id.action_bar_container), true);
-        fade.excludeTarget(android.R.id.statusBarBackground, true);
-        fade.excludeTarget(android.R.id.navigationBarBackground, true);
+        Button moreInterestsButton = findViewById(R.id.clickbaitButtonSkills);
 
-        getWindow().setEnterTransition(fade);
-        getWindow().setExitTransition(fade);
-
-        Button moreIntrestsButton = findViewById(R.id.clickbaitButtonSkills);
-
-        moreIntrestsButton.setOnClickListener(v -> {
+        moreInterestsButton.setOnClickListener(v -> {
             Intent intent = new Intent(AboutMeActivity.this, SkillsActivity.class);
             startActivity(intent);
         });
+
     }
 }

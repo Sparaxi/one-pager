@@ -17,17 +17,9 @@ public class ContactActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
 
-        Fade fade = new Fade();
-        View decor = getWindow().getDecorView();
-        fade.excludeTarget(decor.findViewById(R.id.action_bar_container), true);
-        fade.excludeTarget(android.R.id.statusBarBackground, true);
-        fade.excludeTarget(android.R.id.navigationBarBackground, true);
-
-        getWindow().setEnterTransition(fade);
-        getWindow().setExitTransition(fade);
-
         Button backButton = findViewById(R.id.contactBackButton);
         ImageButton callButton = findViewById(R.id.callMeButton);
+        ImageButton emailButton = findViewById(R.id.emailMeButton);
 
         backButton.setOnClickListener(v -> {
             Intent intent = new Intent(ContactActivity.this, MainActivity.class);
@@ -38,6 +30,10 @@ public class ContactActivity extends AppCompatActivity {
             Intent call = new Intent(Intent.ACTION_DIAL);
             call.setData(Uri.parse("tel:0618611769"));
             startActivity(call);
+        });
+
+        emailButton.setOnClickListener(v -> {
+            startActivity(new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:abo@gmail.com")));
         });
 
     }
