@@ -21,7 +21,7 @@ public class ExperienceActivity extends AppCompatActivity {
         experienceLV = findViewById(R.id.experienceList);
 
         ArrayList<ExperienceStringStorage> arrayList = new ArrayList<>();
-        arrayList.add(new ExperienceStringStorage("test", R.drawable.skills));
+        arrayList.add(new ExperienceStringStorage("It better work","text is verry important yayeet", R.drawable.skills));
 
         ExperienceAdapter experienceAdapter = new ExperienceAdapter(this,R.layout.list_item_experience,arrayList);
         experienceLV.setAdapter(experienceAdapter);

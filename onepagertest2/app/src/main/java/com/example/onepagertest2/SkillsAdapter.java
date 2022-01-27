@@ -5,10 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,8 +36,12 @@ public class SkillsAdapter extends ArrayAdapter<SkillsStringStorage> {
         convertView = layoutInflater.inflate(mResource, parent, false);
 
         TextView textView = convertView.findViewById(R.id.skillsItemText);
+        TextView textView2 = convertView.findViewById(R.id.skillsDesc);
+        ImageView imageView = convertView.findViewById(R.id.skillsItemImage);
 
         textView.setText(getItem(position).getSkills());
+        textView.setText(getItem(position).getDesc());
+        imageView.setImageResource(getItem(position).getImage());
 
         return convertView;
     }

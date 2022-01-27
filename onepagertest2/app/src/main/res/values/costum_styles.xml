@@ -17,4 +17,8 @@
         <item name="android:windowActivityTransitions">true</item>
 
     </style>
+    <style name="experienceStyle">
+        <item name="cornerSize">20%</item>
+    </style>
+
 </resources>

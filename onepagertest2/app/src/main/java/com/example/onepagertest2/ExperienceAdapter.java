@@ -38,9 +38,12 @@ public class ExperienceAdapter extends ArrayAdapter<ExperienceStringStorage> {
 
         ImageView experienceListItem = convertView.findViewById(R.id.experienceItemImage);
 
+        TextView experienceText2 = convertView.findViewById(R.id.testText);
+
         TextView experienceListText = convertView.findViewById(R.id.experienceItemText);
 
-        experienceListText.setText(getItem(position).getWorkDone());
+        experienceText2.setText(getItem(position).getWorkDone());
+        experienceListText.setText(getItem(position).getTest2());
         experienceListItem.setImageResource(getItem(position).getImageview());
 
         return convertView;
