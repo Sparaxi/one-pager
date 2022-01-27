@@ -67,7 +67,7 @@
         android:id="@+id/homeHeaderText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Skills"
+        android:text="Werkervaring"
         android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

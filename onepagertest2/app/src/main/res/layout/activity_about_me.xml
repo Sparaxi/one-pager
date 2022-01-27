@@ -55,7 +55,7 @@
         android:layout_width="130dp"
         android:layout_height="174dp"
         android:scaleType="centerInside"
-        android:src="@drawable/photowesley"
+        android:src="@drawable/photostephanie"
         android:transitionName="aboutme_transition"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
@@ -80,14 +80,14 @@
 
     <TextView
         android:id="@+id/studyInfo"
-        android:layout_width="137dp"
-        android:layout_height="19dp"
-        android:text="Software developer."
+        android:layout_width="153dp"
+        android:layout_height="18dp"
+        android:text="Grafische vormgeving."
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintHorizontal_bias="0.403"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/studiesTitle"
         app:layout_constraintVertical_bias="0.0" />
@@ -109,16 +109,15 @@
         android:id="@+id/jobInfo"
         android:layout_width="141dp"
         android:layout_height="36dp"
-        android:text="verkoopmedewerker - Lidl"
+        android:text="Inactief"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/currentJob"
         app:layout_constraintVertical_bias="0.0" />
-
 
     <TextView
         android:id="@+id/intrests"
@@ -164,7 +163,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Programmeren"
+        android:text="Tekenen"
         android:textSize="15sp"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/intrestsBackground"
@@ -211,18 +210,18 @@
 
     <TextView
         android:id="@+id/naamPersoon"
-        android:layout_width="169dp"
-        android:layout_height="28dp"
-        android:text="Wesley Van der Ploeg"
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:text="Stephanie van Wettum"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="17dp"
-        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.675"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aboutMePhoto"
-        app:layout_constraintVertical_bias="0.17" />
+        app:layout_constraintVertical_bias="0.025" />
 
     <TextView
         android:id="@+id/textView"

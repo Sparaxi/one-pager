@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">Portfolio Wesley</string>
+    <string name="app_name">Portfolio Stephanie</string>
     <string name="skills">skills</string>
     <string name="Title">Title</string>
     <string name="Desc">Desc</string>
     <string name="desc">Desc</string>
-    <string name="overmijText">Hallo ik ben Wesley van der ploeg 26 jaar oud en wonende in Lelystad. Ik studeer momenteel software development aan het ROC Almere buiten. Ik hou voornamelijk van koken en gamen. Ik heb dus ook een opleiding gedaan tot kok, En ben daar ook voor geslaagd. Maar wat ik ook graag doe is documentaires kijken over de ruimte, robots, AGI ( artificial general intelligence ), en zoon beetje alles wat met technologie te maken heeft.</string>
+    <string name="overmijText">Hoi! Ik ben Stephanie en ik ben een student grafische vormgeving aan het ROC MBO College. \n\nIk ben 20 jaar oud en ik woon in Almere. Ik heb twee honden en ik woon met mijn ouders en zusje.
+        \n\nIk heb altijd getekend en dingen gemaakt sinds ik jong was en doe het nog steeds graag. Hopelijk leer ik nog veel meer met mijn studie.</string>
 </resources>
