@@ -1,0 +1,20 @@
+com/example/onepagertest2/ExperienceStringStorage.java
+ com.example.onepagertest2.ExperienceStringStorage
+com/example/onepagertest2/SkillsStringStorage.java
+ com.example.onepagertest2.SkillsStringStorage
+com/example/onepagertest2/BuildConfig.java
+ com.example.onepagertest2.BuildConfig
+com/example/onepagertest2/SkillsAdapter.java
+ com.example.onepagertest2.SkillsAdapter
+com/example/onepagertest2/SkillsActivity.java
+ com.example.onepagertest2.SkillsActivity
+com/example/onepagertest2/ContactActivity.java
+ com.example.onepagertest2.ContactActivity
+com/example/onepagertest2/MainActivity.java
+ com.example.onepagertest2.MainActivity
+com/example/onepagertest2/AboutMeActivity.java
+ com.example.onepagertest2.AboutMeActivity
+com/example/onepagertest2/ExperienceAdapter.java
+ com.example.onepagertest2.ExperienceAdapter
+com/example/onepagertest2/ExperienceActivity.java
+ com.example.onepagertest2.ExperienceActivity

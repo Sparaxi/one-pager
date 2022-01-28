@@ -1,0 +1,26 @@
+com/example/PortfolioApp/ContactActivity.java
+ com.example.PortfolioApp.ContactActivity
+com/example/PortfolioApp/BuildConfig.java
+ com.example.PortfolioApp.BuildConfig
+com/example/PortfolioApp/MainActivity.java
+ com.example.PortfolioApp.MainActivity
+com/example/PortfolioApp/ExperienceAdapter.java
+ com.example.PortfolioApp.ExperienceAdapter
+com/example/PortfolioApp/ExperienceStringStorage.java
+ com.example.PortfolioApp.ExperienceStringStorage
+com/example/PortfolioApp/SkillsAdapter.java
+ com.example.PortfolioApp.SkillsAdapter
+com/example/PortfolioApp/SkillsActivity.java
+ com.example.PortfolioApp.SkillsActivity
+com/example/onepagertest2/SkillsActivity.java
+ com.example.onepagertest2.SkillsActivity
+com/example/PortfolioApp/ExperienceActivity.java
+ com.example.PortfolioApp.ExperienceActivity
+com/example/onepagertest2/ContactActivity.java
+ com.example.onepagertest2.ContactActivity
+com/example/PortfolioApp/SkillsStringStorage.java
+ com.example.PortfolioApp.SkillsStringStorage
+com/example/PortfolioApp/AboutMeActivity.java
+ com.example.PortfolioApp.AboutMeActivity
+com/example/onepagertest2/ExperienceActivity.java
+ com.example.onepagertest2.ExperienceActivity
