@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RoundedSquare">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="RoundedSquareText">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circle">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="transition">
+        <item name="android:windowActivityTransitions">true</item>
+
+    </style>
+    <style name="experienceStyle">
+        <item name="cornerSize">20%</item>
+    </style>
+
+</resources>
