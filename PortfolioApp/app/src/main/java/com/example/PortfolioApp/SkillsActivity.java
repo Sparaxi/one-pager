@@ -38,10 +38,11 @@ public class SkillsActivity extends AppCompatActivity {
 
         ArrayList<SkillsStringStorage> arrayList = new ArrayList<>();
 
-        arrayList.add(new SkillsStringStorage("Albert Heijn: Kassamedewerker","Parttime; juli 2017 - september 2017", R.drawable.suitcaseblauw));
-        arrayList.add(new SkillsStringStorage("Onderweg Buffet Restaurant:","Bediening/serveerster.\nParttime juni 2019 - maart 2021", R.drawable.suitcaseorange));
-        arrayList.add(new SkillsStringStorage("Hema"," Verkoop/kassamedewerkster Parttime \n maart 2021 - april 2021", R.drawable.suitcaseblauw));
-        arrayList.add(new SkillsStringStorage("Vero Moda","verkoop/kassamedewerkster Parttiime \napril 2021 - december 2021", R.drawable.suitcaseorange));
+        arrayList.add(new SkillsStringStorage("Java","", R.drawable.suitcaseblauw));
+        arrayList.add(new SkillsStringStorage("SQL","", R.drawable.suitcaseorange));
+        arrayList.add(new SkillsStringStorage("Python","", R.drawable.suitcaseblauw));
+        arrayList.add(new SkillsStringStorage("HTML/CSS","", R.drawable.suitcaseorange));
+        arrayList.add(new SkillsStringStorage("","", R.drawable.suitcaseorange));
 
 
 
