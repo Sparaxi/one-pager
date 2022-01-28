@@ -10,208 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e02f9a-fb46-48f1-bce4-64b1e7d95baf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/androidTest/java/com/example/onepagertest2/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/java/com/example/onepagertest2/AboutMeActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/java/com/example/onepagertest2/ContactActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/java/com/example/onepagertest2/ExperienceActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/java/com/example/onepagertest2/ExperienceAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/java/com/example/onepagertest2/ExperienceStringStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/java/com/example/onepagertest2/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/java/com/example/onepagertest2/SkillsActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/java/com/example/onepagertest2/SkillsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/java/com/example/onepagertest2/SkillsStringStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/back_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/background_scenes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/contacticon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/custom_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/experiencefoto1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/experiencefoto2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/experiencefoto3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/experiencefoto4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/gamejam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/goal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/lenny.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/overmij_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/phonecall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/photo5999304791609686137.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/photowesley.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/project1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/project2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/project3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/skills.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/suitcase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/suitcase_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/suitcaseblauw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/suitcaseorange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/telephone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/drawable/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/layout/activity_about_me.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/layout/activity_contact.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/layout/activity_experience.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/layout/activity_skills.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/layout/list_item_experience.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/layout/list_item_skills.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/values/costum_styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/app/src/test/java/com/example/onepagertest2/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Cedric/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/androidTest/java/com/example/onepagertest2/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/java/com/example/onepagertest2/AboutMeActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/java/com/example/onepagertest2/ContactActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/java/com/example/onepagertest2/ExperienceActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/java/com/example/onepagertest2/ExperienceAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/java/com/example/onepagertest2/ExperienceStringStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/java/com/example/onepagertest2/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/java/com/example/onepagertest2/SkillsActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/java/com/example/onepagertest2/SkillsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/java/com/example/onepagertest2/SkillsStringStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/back_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/background_scenes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/contacticon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/custom_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/experiencefoto1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/experiencefoto2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/experiencefoto3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/experiencefoto4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/gamejam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/goal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/lenny.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/overmij_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/phonecall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/photo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/photo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/photo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/photo5999304791609686137.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/photo6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/photowesley.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/project1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/project2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/project3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/skills.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/suitcase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/suitcase_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/suitcaseblauw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/suitcaseorange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/telephone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/drawable/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/layout/activity_about_me.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/layout/activity_contact.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/layout/activity_experience.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/layout/activity_skills.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/layout/list_item_experience.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/layout/list_item_skills.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/values/costum_styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/app/src/test/java/com/example/onepagertest2/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/onepagertest2/ContactActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/onepagertest2/ExperienceActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/onepagertest2/SkillsActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gamejam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lenny.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/photo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/photo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/photo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/photo5999304791609686137.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/photo6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/project1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/project2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/project3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/suitcase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/suitcase_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PortfolioApp Stephanie/app/src/main/java/com/example/PortfolioApp/ExperienceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PortfolioApp Stephanie/app/src/main/java/com/example/PortfolioApp/ExperienceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PortfolioApp Stephanie/app/src/main/java/com/example/PortfolioApp/ExperienceStringStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PortfolioApp Stephanie/app/src/main/java/com/example/PortfolioApp/ExperienceStringStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_experience.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_experience.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_skills.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_skills.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PortfolioApp Wesley/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PortfolioApp Wesley/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PortfolioApp-Sharon/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PortfolioApp-Sharon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PortfolioApp-Sharon/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../PortfolioApp-Sharon/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\lenny\.android\avd\Pixel_4_XL_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\test\.android\avd\Pixel_3_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -238,6 +47,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="249w7jcQSokF7WiAKZSVvE8FuUi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -245,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../OnePageP/one-pager/onepagertest2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PortfolioApp" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
